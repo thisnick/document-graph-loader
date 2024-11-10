@@ -1,0 +1,261 @@
+{
+  "vendors": {
+    "facilities": {
+      "CitySpace_Commercial": {
+        "name": "CitySpace Commercial Properties",
+        "type": "Real Estate Management",
+        "id": "VEN001",
+        "company": {
+          "legalName": "CitySpace Commercial Properties LLC",
+          "headquarters": "100 Real Estate Plaza, Metro City, ST 10001",
+          "founded": 1985,
+          "industry": "Commercial Real Estate",
+          "size": "Large Enterprise"
+        },
+        "services": {
+          "primary": "Commercial Property Leasing",
+          "additional": [
+            "Property Management",
+            "Facility Maintenance",
+            "Security Services"
+          ],
+          "coverage": ["All Office Locations"]
+        },
+        "contracts": {
+          "main_office": {
+            "type": "Commercial Lease",
+            "value": {
+              "monthly": 28000,
+              "annual": 336000,
+              "details": "15,000 sq ft @ $22/sq ft annually"
+            },
+            "terms": {
+              "duration": "5 years",
+              "payment_schedule": "Monthly, due 1st",
+              "security_deposit": "3 months rent",
+              "annual_increase": "3% or CPI, whichever is greater"
+            }
+          },
+          "regional_offices": {
+            "northeast": {"monthly": 12000, "details": "5,000 sq ft"},
+            "southeast": {"monthly": 9500, "details": "5,000 sq ft"},
+            "midwest": {"monthly": 8500, "details": "5,000 sq ft"},
+            "west": {"monthly": 15000, "details": "5,000 sq ft"}
+          }
+        }
+      },
+      "Metro_Utilities": {
+        "name": "Metro Utilities Co.",
+        "type": "Utility Provider",
+        "id": "VEN002",
+        "company": {
+          "legalName": "Metro Utilities Corporation",
+          "headquarters": "200 Power Avenue, Metro City, ST 10002",
+          "founded": 1950,
+          "industry": "Utilities",
+          "size": "Large Enterprise"
+        },
+        "services": {
+          "provided": [
+            "Electricity",
+            "Water",
+            "Natural Gas"
+          ],
+          "coverage": "All Office Locations"
+        },
+        "contracts": {
+          "utilities": {
+            "type": "Utility Services Agreement",
+            "value": {
+              "monthly_average": 4200,
+              "breakdown": {
+                "electricity": 2800,
+                "water": 400,
+                "internet_phones": 1000
+              }
+            },
+            "terms": {
+              "duration": "Annual auto-renewal",
+              "payment_terms": "Net 15",
+              "rate_structure": "Tiered usage rates",
+              "special_conditions": "Peak demand pricing applies"
+            }
+          }
+        }
+      }
+    },
+    "technology": {
+      "TechCare_Solutions": {
+        "name": "TechCare Solutions",
+        "type": "IT Services Provider",
+        "id": "VEN003",
+        "company": {
+          "legalName": "TechCare Solutions Inc.",
+          "headquarters": "300 Software Street, Tech Valley, ST 20001",
+          "founded": 2005,
+          "industry": "Information Technology",
+          "size": "Mid-size Enterprise"
+        },
+        "services": {
+          "software_subscriptions": {
+            "crm": {
+              "product": "Enterprise CRM Suite",
+              "monthly": 4500,
+              "users": 150
+            },
+            "erp": {
+              "product": "Business Operations Platform",
+              "monthly": 6800,
+              "users": 200
+            },
+            "field_service": {
+              "product": "ServiceTech Pro",
+              "monthly": 5500,
+              "users": 180
+            },
+            "accounting": {
+              "product": "FinancePro Enterprise",
+              "monthly": 2800,
+              "users": 50
+            },
+            "productivity_tools": {
+              "product": "Office Enterprise Suite",
+              "monthly": 3200,
+              "users": "Company-wide"
+            }
+          },
+          "managed_services": {
+            "monthly": 15000,
+            "services": [
+              "24/7 Help Desk",
+              "Infrastructure Management",
+              "Security Monitoring",
+              "Cloud Services Management"
+            ]
+          }
+        },
+        "contracts": {
+          "software": {
+            "type": "Enterprise Software License",
+            "value": {
+              "monthly_total": 22800,
+              "annual": 273600
+            },
+            "terms": {
+              "duration": "3 years",
+              "payment_terms": "Monthly in advance",
+              "sla": "99.9% uptime",
+              "support": "24/7 premium support"
+            }
+          },
+          "managed_services": {
+            "type": "Managed IT Services",
+            "value": {
+              "monthly": 15000,
+              "annual": 180000
+            },
+            "terms": {
+              "duration": "2 years",
+              "response_times": {
+                "critical": "1 hour",
+                "high": "4 hours",
+                "normal": "8 hours"
+              }
+            }
+          }
+        }
+      }
+    },
+    "fleet": {
+      "FleetMaster_Leasing": {
+        "name": "FleetMaster Leasing Corp",
+        "type": "Vehicle Fleet Management",
+        "id": "VEN004",
+        "company": {
+          "legalName": "FleetMaster Leasing Corporation",
+          "headquarters": "400 Vehicle Drive, Motor City, ST 30001",
+          "founded": 1978,
+          "industry": "Fleet Management",
+          "size": "Large Enterprise"
+        },
+        "services": {
+          "primary": "Vehicle Leasing and Management",
+          "additional": [
+            "Fleet Maintenance",
+            "Fuel Management",
+            "Vehicle Tracking",
+            "Insurance Management"
+          ]
+        },
+        "contracts": {
+          "fleet_lease": {
+            "type": "Master Fleet Lease Agreement",
+            "fleet_size": 35,
+            "value": {
+              "monthly_per_vehicle": 525,
+              "monthly_total": 18375,
+              "annual": 220500
+            },
+            "terms": {
+              "duration": "4 years",
+              "replacement_cycle": "48 months or 100,000 miles",
+              "maintenance_included": true,
+              "insurance": "Included in lease"
+            }
+          },
+          "fuel_program": {
+            "type": "Fuel Management Service",
+            "value": {
+              "monthly_per_vehicle": 280,
+              "monthly_total": 9800
+            },
+            "terms": {
+              "billing": "Actual usage plus management fee",
+              "payment_terms": "Net 15",
+              "reporting": "Real-time fuel usage tracking"
+            }
+          }
+        }
+      },
+      "SecureFleet_Insurance": {
+        "name": "SecureFleet Insurance",
+        "type": "Commercial Insurance",
+        "id": "VEN005",
+        "company": {
+          "legalName": "SecureFleet Insurance Company",
+          "headquarters": "500 Insurance Plaza, Metro City, ST 10005",
+          "founded": 1965,
+          "industry": "Commercial Insurance",
+          "size": "Large Enterprise"
+        },
+        "services": {
+          "primary": "Commercial Fleet Insurance",
+          "coverage_types": [
+            "Vehicle Liability",
+            "Physical Damage",
+            "Cargo Insurance",
+            "Worker's Compensation"
+          ]
+        },
+        "contracts": {
+          "fleet_insurance": {
+            "type": "Commercial Fleet Insurance Policy",
+            "value": {
+              "monthly": 12600,
+              "annual": 151200
+            },
+            "terms": {
+              "duration": "Annual",
+              "coverage_limits": {
+                "liability": "2M per incident",
+                "physical_damage": "Actual cash value",
+                "deductible": "1000 per incident"
+              },
+              "payment_terms": "Monthly installments"
+            }
+          }
+        }
+      }
+    }
+  }
+}

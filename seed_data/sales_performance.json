@@ -1,0 +1,389 @@
+{
+  "salesPerformance": {
+    "activityMetrics": {
+      "prospecting": {
+        "callQuota": 50,
+        "emailQuota": 100,
+        "meetingQuota": 10,
+        "quotaTimeframe": "weekly"
+      },
+      "conversionRates": {
+        "callToMeeting": 0.15,
+        "meetingToOpportunity": 0.30,
+        "opportunityToClose": 0.25
+      }
+    },
+    "commissionStructure": {
+      "base": {
+        "newBusiness": 0.08,
+        "renewal": 0.04,
+        "upsell": 0.06
+      },
+      "accelerators": [
+        {
+          "threshold": 0.8,
+          "multiplier": 1.2
+        },
+        {
+          "threshold": 1.0,
+          "multiplier": 1.5
+        },
+        {
+          "threshold": 1.2,
+          "multiplier": 2.0
+        }
+      ],
+      "specialIncentives": {
+        "strategicAccounts": 0.02,
+        "longTermContracts": 0.01,
+        "newMarkets": 0.03
+      }
+    },
+    "marketingCosts": {
+      "digital": {
+        "monthlyBudget": 18500,
+        "channelAllocation": {
+          "search": 0.45,
+          "social": 0.30,
+          "display": 0.15,
+          "email": 0.10
+        }
+      },
+      "events": {
+        "monthlyBudget": 12000,
+        "types": {
+          "tradeshows": 0.50,
+          "webinars": 0.30,
+          "customerEvents": 0.20
+        }
+      },
+      "content": {
+        "monthlyBudget": 8500,
+        "allocation": {
+          "whitepapers": 0.25,
+          "blogPosts": 0.35,
+          "caseStudies": 0.40
+        }
+      }
+    },
+    "salesTransactions": [
+      {
+        "transactionId": "SALE2024001",
+        "salesRepId": "EMP006",
+        "clientId": "CLI001",
+        "activityLog": {
+          "firstContact": "2024-01-05",
+          "meetings": [
+            {
+              "date": "2024-01-12",
+              "type": "discovery",
+              "outcome": "qualified"
+            },
+            {
+              "date": "2024-01-19",
+              "type": "proposal",
+              "outcome": "positive"
+            }
+          ],
+          "proposalDate": "2024-01-22",
+          "closedDate": "2024-02-15"
+        },
+        "dealDetails": {
+          "type": "newBusiness",
+          "annualValue": 450000,
+          "termLength": 24,
+          "category": "strategic",
+          "products": ["regularMaintenance", "emergencyService"],
+          "notes": "Won on service quality and sustainability commitment"
+        },
+        "acquisition": {
+          "source": "sustainability_conference",
+          "marketingCosts": {
+            "eventCost": 5000,
+            "materialsCost": 500,
+            "followUpCampaign": 1500
+          },
+          "salesCosts": {
+            "travelExpenses": 1200,
+            "proposalCosts": 300,
+            "toolingCosts": 800
+          }
+        }
+      },
+      {
+        "transactionId": "SALE2024002",
+        "salesRepId": "EMP014",
+        "clientId": "CLI002",
+        "activityLog": {
+          "firstContact": "2024-01-15",
+          "meetings": [
+            {
+              "date": "2024-01-22",
+              "type": "discovery",
+              "outcome": "qualified"
+            },
+            {
+              "date": "2024-02-05",
+              "type": "technical_review",
+              "outcome": "positive"
+            },
+            {
+              "date": "2024-02-12",
+              "type": "proposal",
+              "outcome": "positive"
+            }
+          ],
+          "proposalDate": "2024-02-15",
+          "closedDate": "2024-02-28"
+        },
+        "dealDetails": {
+          "type": "newBusiness",
+          "annualValue": 280000,
+          "termLength": 36,
+          "category": "standard",
+          "products": ["HVAC_maintenance", "emergency_repairs"],
+          "notes": "Focus on regulatory compliance and response times"
+        },
+        "acquisition": {
+          "source": "referral",
+          "marketingCosts": {
+            "referralReward": 2000,
+            "materialsCost": 400,
+            "followUpCampaign": 1000
+          },
+          "salesCosts": {
+            "travelExpenses": 800,
+            "proposalCosts": 250,
+            "technicalAssessment": 1500
+          }
+        }
+      },
+      {
+        "transactionId": "SALE2024003",
+        "salesRepId": "EMP005",
+        "clientId": "CLI003",
+        "activityLog": {
+          "firstContact": "2024-02-01",
+          "meetings": [
+            {
+              "date": "2024-02-08",
+              "type": "discovery",
+              "outcome": "qualified"
+            },
+            {
+              "date": "2024-02-15",
+              "type": "site_survey",
+              "outcome": "positive"
+            },
+            {
+              "date": "2024-02-22",
+              "type": "proposal",
+              "outcome": "positive"
+            }
+          ],
+          "proposalDate": "2024-02-25",
+          "closedDate": "2024-03-10"
+        },
+        "dealDetails": {
+          "type": "newBusiness",
+          "annualValue": 1200000,
+          "termLength": 36,
+          "category": "strategic",
+          "products": ["equipment_maintenance", "store_fixtures", "refrigeration"],
+          "notes": "Large multi-site deployment with complex coordination"
+        },
+        "acquisition": {
+          "source": "direct_outreach",
+          "marketingCosts": {
+            "marketResearch": 3000,
+            "materialsCost": 1500,
+            "proposalMaterials": 2000
+          },
+          "salesCosts": {
+            "travelExpenses": 4500,
+            "proposalCosts": 1200,
+            "siteAssessments": 8000
+          }
+        }
+      },
+      {
+        "transactionId": "SALE2024004",
+        "salesRepId": "EMP007",
+        "clientId": "CLI004",
+        "activityLog": {
+          "firstContact": "2024-01-20",
+          "meetings": [
+            {
+              "date": "2024-01-27",
+              "type": "discovery",
+              "outcome": "qualified"
+            },
+            {
+              "date": "2024-02-03",
+              "type": "compliance_review",
+              "outcome": "positive"
+            },
+            {
+              "date": "2024-02-10",
+              "type": "proposal",
+              "outcome": "positive"
+            }
+          ],
+          "proposalDate": "2024-02-12",
+          "closedDate": "2024-02-25"
+        },
+        "dealDetails": {
+          "type": "newBusiness",
+          "annualValue": 750000,
+          "termLength": 36,
+          "category": "strategic",
+          "products": ["medical_equipment_maintenance", "facility_maintenance", "emergency_response"],
+          "notes": "Won on healthcare expertise and compliance capabilities"
+        },
+        "acquisition": {
+          "source": "industry_referral",
+          "marketingCosts": {
+            "industryEvent": 6000,
+            "specializedMaterials": 2000,
+            "complianceDocumentation": 3000
+          },
+          "salesCosts": {
+            "travelExpenses": 2500,
+            "proposalCosts": 1500,
+            "complianceReview": 4000
+          }
+        }
+      },
+      {
+        "transactionId": "SALE2024005",
+        "salesRepId": "EMP011",
+        "clientId": "CLI005",
+        "activityLog": {
+          "firstContact": "2024-02-10",
+          "meetings": [
+            {
+              "date": "2024-02-15",
+              "type": "discovery",
+              "outcome": "qualified"
+            },
+            {
+              "date": "2024-02-22",
+              "type": "technical_review",
+              "outcome": "positive"
+            },
+            {
+              "date": "2024-02-28",
+              "type": "proposal",
+              "outcome": "positive"
+            }
+          ],
+          "proposalDate": "2024-03-01",
+          "closedDate": "2024-03-15"
+        },
+        "dealDetails": {
+          "type": "newBusiness",
+          "annualValue": 320000,
+          "termLength": 12,
+          "category": "technology",
+          "products": ["smart_systems", "IoT_maintenance", "general_maintenance"],
+          "notes": "Focus on technical integration and rapid response"
+        },
+        "acquisition": {
+          "source": "website_inbound",
+          "marketingCosts": {
+            "digitalAdvertising": 4000,
+            "contentMarketing": 1500,
+            "technicalContent": 2000
+          },
+          "salesCosts": {
+            "technicalDemo": 3000,
+            "proposalCosts": 500,
+            "systemAssessment": 2500
+          }
+        }
+      },
+      {
+        "transactionId": "SALE2024006",
+        "salesRepId": "EMP006",
+        "clientId": "CLI001",
+        "activityLog": {
+          "firstContact": "2024-02-20",
+          "meetings": [
+            {
+              "date": "2024-02-25",
+              "type": "review",
+              "outcome": "positive"
+            }
+          ],
+          "proposalDate": "2024-02-28",
+          "closedDate": "2024-03-05"
+        },
+        "dealDetails": {
+          "type": "upsell",
+          "annualValue": 150000,
+          "termLength": 24,
+          "category": "strategic",
+          "products": ["smart_building_integration"],
+          "notes": "Additional services for existing contract"
+        },
+        "acquisition": {
+          "source": "account_management",
+          "marketingCosts": {
+            "customMaterials": 1000,
+            "productDemo": 1500
+          },
+          "salesCosts": {
+            "proposalCosts": 200,
+            "technicalAssessment": 1000
+          }
+        }
+      }
+    ],
+    "quarterlyQuotas": {
+      "2024": {
+        "Q1": {
+          "newBusiness": 2000000,
+          "renewal": 1500000,
+          "upsell": 500000
+        },
+        "Q2": {
+          "newBusiness": 2200000,
+          "renewal": 1600000,
+          "upsell": 600000
+        },
+        "Q3": {
+          "newBusiness": 2400000,
+          "renewal": 1700000,
+          "upsell": 700000
+        },
+        "Q4": {
+          "newBusiness": 2600000,
+          "renewal": 1800000,
+          "upsell": 800000
+        }
+      }
+    },
+    "territories": {
+      "northeast": {
+        "marketSize": 15000000,
+        "penetration": 0.15,
+        "targetAccounts": 250
+      },
+      "southeast": {
+        "marketSize": 12000000,
+        "penetration": 0.12,
+        "targetAccounts": 200
+      },
+      "midwest": {
+        "marketSize": 10000000,
+        "penetration": 0.10,
+        "targetAccounts": 180
+      },
+      "west": {
+        "marketSize": 18000000,
+        "penetration": 0.08,
+        "targetAccounts": 300
+      }
+    }
+  }
+}

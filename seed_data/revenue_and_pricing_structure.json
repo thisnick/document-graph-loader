@@ -1,0 +1,175 @@
+{
+  "serviceLines": {
+    "regularMaintenance": {
+      "baseRates": {
+        "standard": {
+          "hourlyRate": 125,
+          "minimumCharge": 250,
+          "standardCalloutFee": 175,
+          "typicalDuration": "2-4 hours"
+        },
+        "premium": {
+          "hourlyRate": 165,
+          "minimumCharge": 330,
+          "priorityCalloutFee": 0,
+          "typicalDuration": "2-4 hours",
+          "guaranteedResponse": "8 hours"
+        }
+      },
+      "contractPricing": {
+        "monthly": {
+          "tier1": {
+            "priceRange": "2500-5000",
+            "visits": "1-2 per month",
+            "coverage": "Basic preventive maintenance",
+            "sla": "48 hours"
+          },
+          "tier2": {
+            "priceRange": "5001-12000",
+            "visits": "2-4 per month",
+            "coverage": "Comprehensive maintenance + minor repairs",
+            "sla": "24 hours"
+          },
+          "tier3": {
+            "priceRange": "12001-25000",
+            "visits": "Weekly",
+            "coverage": "Full coverage including emergency calls",
+            "sla": "4 hours"
+          }
+        },
+        "annual": {
+          "discount": "10% off monthly rate",
+          "paymentTerms": "Quarterly in advance",
+          "minimumTerm": "12 months"
+        }
+      }
+    },
+    "emergencyServices": {
+      "rates": {
+        "businessHours": {
+          "calloutFee": 350,
+          "hourlyRate": 225,
+          "minimumCharge": 450
+        },
+        "afterHours": {
+          "calloutFee": 500,
+          "hourlyRate": 325,
+          "minimumCharge": 650
+        },
+        "holidays": {
+          "calloutFee": 750,
+          "hourlyRate": 425,
+          "minimumCharge": 850
+        }
+      },
+      "responseTimeSLA": {
+        "priority1": "2 hours",
+        "priority2": "4 hours",
+        "priority3": "8 hours"
+      }
+    },
+    "projectServices": {
+      "installationProjects": {
+        "smallScale": {
+          "range": "5000-25000",
+          "typical_margin": "35%",
+          "typical_duration": "1-3 days"
+        },
+        "mediumScale": {
+          "range": "25001-100000",
+          "typical_margin": "32%",
+          "typical_duration": "1-2 weeks"
+        },
+        "largeScale": {
+          "range": "100001-500000",
+          "typical_margin": "28%",
+          "typical_duration": "3-8 weeks"
+        }
+      },
+      "retrofitProjects": {
+        "smallScale": {
+          "range": "10000-50000",
+          "typical_margin": "33%",
+          "typical_duration": "3-5 days"
+        },
+        "mediumScale": {
+          "range": "50001-200000",
+          "typical_margin": "30%",
+          "typical_duration": "2-4 weeks"
+        },
+        "largeScale": {
+          "range": "200001-1000000",
+          "typical_margin": "25%",
+          "typical_duration": "6-12 weeks"
+        }
+      }
+    }
+  },
+  "revenueModifiers": {
+    "volumeDiscounts": {
+      "tier1": {
+        "annualSpend": "50000-100000",
+        "discount": "5%"
+      },
+      "tier2": {
+        "annualSpend": "100001-250000",
+        "discount": "8%"
+      },
+      "tier3": {
+        "annualSpend": "250001+",
+        "discount": "12%"
+      }
+    },
+    "contractLengthDiscounts": {
+      "2year": "5%",
+      "3year": "8%",
+      "5year": "15%"
+    },
+    "seasonalModifiers": {
+      "peakSeason": {
+        "months": ["Jun", "Jul", "Aug"],
+        "modifier": "+15%"
+      },
+      "shoulderSeason": {
+        "months": ["Apr", "May", "Sep", "Oct"],
+        "modifier": "+5%"
+      },
+      "lowSeason": {
+        "months": ["Nov", "Dec", "Jan", "Feb", "Mar"],
+        "modifier": "-10%"
+      }
+    },
+    "geographicModifiers": {
+      "urban": {
+        "modifier": "+10%",
+        "cities": ["Boston", "NYC", "SF", "LA", "Chicago"]
+      },
+      "suburban": {
+        "modifier": "0%",
+        "description": "Base rate applies"
+      },
+      "rural": {
+        "modifier": "+15%",
+        "description": "Additional travel charges may apply"
+      }
+    }
+  },
+  "paymentTerms": {
+    "standard": {
+      "invoiceTerms": "Net 30",
+      "earlyPaymentDiscount": "2/10 Net 30",
+      "latePaymentFee": "1.5% monthly"
+    },
+    "preferred": {
+      "invoiceTerms": "Net 45",
+      "minimumAnnualRevenue": 250000,
+      "requiresAutopay": true
+    },
+    "project": {
+      "upfront": "30%",
+      "progress": "60%",
+      "completion": "10%",
+      "retainage": "5% for 60 days"
+    }
+  }
+}

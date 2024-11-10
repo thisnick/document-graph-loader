@@ -1,0 +1,293 @@
+{
+  "clients": [
+    {
+      "id": "CLI001",
+      "company": {
+        "name": "GreenSpaces Living",
+        "industry": "Retail - Furniture and Home Goods",
+        "annualRevenue": "$250M",
+        "locations": ["Northeast US", "Mid-Atlantic"],
+        "yearFounded": 2015,
+        "contractValue": "$450,000/year",
+        "address": {
+          "headquarters": "100 Commerce Way, Suite 400, Princeton, NJ 08540",
+          "warehouses": [
+            "15 Industrial Park Drive, Edison, NJ 08837",
+            "2200 Washington Avenue, Philadelphia, PA 19146"
+          ]
+        }
+      },
+      "businessProfile": {
+        "model": "Direct-to-consumer furniture retail with showrooms and warehouses",
+        "culture": "Startup-like, environmentally conscious, fast-paced",
+        "mainChallenges": [
+          "Rapid expansion causing operational strain",
+          "Need for consistent assembly quality across locations",
+          "Customer complaints about installation wait times",
+          "High turnover in their own installation team led to outsourcing"
+        ],
+        "cashFlowSituation": "Well-funded with recent Series C, but careful about cash burn",
+        "paymentTerms": "Net-45, occasionally delayed due to internal approval processes",
+        "uniqueCharacteristics": [
+          "Strong emphasis on sustainable materials",
+          "Tech-forward approach to operations",
+          "Highly active on social media - sensitive to public image",
+          "Seasonal business peaks during summer moving season"
+        ]
+      },
+      "keyContacts": [
+        {
+          "name": "Emily Rodriguez",
+          "role": "Head of Operations",
+          "influence": "Primary Decision Maker",
+          "preferences": "Data-driven, prefers email communication, quick to escalate issues",
+          "painPoints": "Struggling with scaling operations while maintaining quality"
+        },
+        {
+          "name": "Mark Zhang",
+          "role": "Warehouse Manager",
+          "influence": "Key Influencer",
+          "preferences": "Hands-on, prefers WhatsApp for urgent issues",
+          "painPoints": "Inventory management and installation scheduling conflicts"
+        },
+        {
+          "name": "Sarah Bristol",
+          "role": "Customer Experience Director",
+          "influence": "Stakeholder",
+          "preferences": "Very detail-oriented, requires weekly reports",
+          "painPoints": "Customer satisfaction scores during peak seasons"
+        }
+      ],
+      "serviceRequirements": {
+        "primaryServices": ["Furniture assembly", "Installation", "Customer site preparation"],
+        "responseTimeRequired": "24 hours",
+        "specialRequirements": ["Weekend availability", "Uniformed staff", "Eco-friendly practices"]
+      }
+    },
+    {
+      "id": "CLI002",
+      "company": {
+        "name": "CoolTech Solutions",
+        "industry": "Commercial HVAC and Office Maintenance",
+        "annualRevenue": "$75M",
+        "locations": ["Chicago", "Milwaukee", "Indianapolis"],
+        "yearFounded": 2008,
+        "contractValue": "$280,000/year",
+        "address": {
+          "headquarters": "233 West Wacker Drive, Suite 3100, Chicago, IL 60606",
+          "serviceLocations": [
+            "8727 West Brown Deer Road, Milwaukee, WI 53224",
+            "5620 Fortune Circle West, Indianapolis, IN 46241"
+          ]
+        }
+      },
+      "businessProfile": {
+        "model": "B2B service provider for commercial buildings",
+        "culture": "Traditional, relationship-focused, quality-oriented",
+        "mainChallenges": [
+          "Struggling with technician availability during peak seasons",
+          "Need for specialized certifications",
+          "Managing emergency response times",
+          "Complex compliance requirements"
+        ],
+        "cashFlowSituation": "Stable but seasonal, strong Q2/Q3, weaker Q1/Q4",
+        "paymentTerms": "Net-30, very reliable",
+        "uniqueCharacteristics": [
+          "Heavy focus on regulatory compliance",
+          "Long-term contracts with major property managers",
+          "24/7 emergency service requirements",
+          "Union workforce considerations"
+        ]
+      },
+      "keyContacts": [
+        {
+          "name": "Robert Chen",
+          "role": "Technical Operations Director",
+          "influence": "Primary Decision Maker",
+          "preferences": "Highly technical, expects detailed documentation",
+          "painPoints": "Meeting emergency response times"
+        },
+        {
+          "name": "Linda Martinez",
+          "role": "Compliance Manager",
+          "influence": "Key Influencer",
+          "preferences": "Formal communication, requires certification records",
+          "painPoints": "Maintaining compliance documentation"
+        }
+      ],
+      "serviceRequirements": {
+        "primaryServices": ["HVAC installation", "Emergency repairs", "Preventive maintenance"],
+        "responseTimeRequired": "4 hours for emergencies",
+        "specialRequirements": ["EPA certifications", "Union compliance", "24/7 availability"]
+      }
+    },
+    {
+      "id": "CLI003",
+      "company": {
+        "name": "SwiftMart Retail Group",
+        "industry": "Retail - Grocery and Convenience",
+        "annualRevenue": "$890M",
+        "locations": ["Southeast US - 200+ stores"],
+        "yearFounded": 1995,
+        "contractValue": "$1.2M/year",
+        "address": {
+          "headquarters": "2250 Satellite Boulevard, Duluth, GA 30097",
+          "distributionCenter": "1100 Distribution Way, Charlotte, NC 28269"
+        }
+      },
+      "businessProfile": {
+        "model": "Multi-state grocery and convenience store chain",
+        "culture": "Corporate, process-driven, cost-conscious",
+        "mainChallenges": [
+          "High volume of maintenance requests across locations",
+          "Tight budgets and cost control",
+          "Need for after-hours service",
+          "Complex approval processes"
+        ],
+        "cashFlowSituation": "Strong cash position but very focused on cost reduction",
+        "paymentTerms": "Net-60, requires detailed invoicing",
+        "uniqueCharacteristics": [
+          "Heavily unionized workforce",
+          "Strong focus on food safety compliance",
+          "Complex internal hierarchy",
+          "Multiple stakeholders for each decision"
+        ]
+      },
+      "keyContacts": [
+        {
+          "name": "James Wilson",
+          "role": "Facilities Director",
+          "influence": "Budget Authority",
+          "preferences": "Quarterly business reviews, formal communication",
+          "painPoints": "Budget overruns on emergency repairs"
+        },
+        {
+          "name": "Maria Garcia",
+          "role": "Regional Maintenance Coordinator",
+          "influence": "Day-to-day Contact",
+          "preferences": "Uses custom maintenance ticketing system",
+          "painPoints": "Coordinating work during store hours"
+        }
+      ],
+      "serviceRequirements": {
+        "primaryServices": ["Equipment maintenance", "Store fixture installation", "Refrigeration"],
+        "responseTimeRequired": "8 hours",
+        "specialRequirements": ["Food safety compliance", "After-hours availability", "Multi-site coordination"]
+      }
+    },
+    {
+      "id": "CLI004",
+      "company": {
+        "name": "InnoHealth Medical Centers",
+        "industry": "Healthcare",
+        "annualRevenue": "$180M",
+        "locations": ["Boston", "Providence", "Hartford"],
+        "yearFounded": 2012,
+        "contractValue": "$750,000/year",
+        "address": {
+          "headquarters": "850 Boylston Street, Suite 2300, Boston, MA 02199",
+          "facilities": [
+            "1 Capital Way, Providence, RI 02903",
+            "100 Asylum Street, Hartford, CT 06103"
+          ]
+        }
+      },
+      "businessProfile": {
+        "model": "Modern medical facilities with urgent care and specialist offices",
+        "culture": "Professional, compliance-focused, patient-centric",
+        "mainChallenges": [
+          "Strict regulatory requirements",
+          "Zero-tolerance for service disruptions",
+          "Complex scheduling around patient care",
+          "High standards for cleanliness and safety"
+        ],
+        "cashFlowSituation": "Very stable, insurance-backed revenue",
+        "paymentTerms": "Net-45, reliable but complex approval process",
+        "uniqueCharacteristics": [
+          "Heavy emphasis on infection control",
+          "Requires healthcare-specific certifications",
+          "Multiple stakeholders for decision-making",
+          "Rapid expansion plans in progress"
+        ]
+      },
+      "keyContacts": [
+        {
+          "name": "Dr. Rachel Thompson",
+          "role": "Chief Medical Officer",
+          "influence": "Executive Sponsor",
+          "preferences": "Brief, scheduled updates only",
+          "painPoints": "Minimizing patient care disruption"
+        },
+        {
+          "name": "Michael Chang",
+          "role": "Facilities Manager",
+          "influence": "Primary Contact",
+          "preferences": "Detailed planning, advance scheduling",
+          "painPoints": "Balancing maintenance needs with patient care"
+        }
+      ],
+      "serviceRequirements": {
+        "primaryServices": ["Medical equipment installation", "Facility maintenance", "Emergency repairs"],
+        "responseTimeRequired": "2 hours",
+        "specialRequirements": ["Healthcare certifications", "Infection control protocols", "Background checks"]
+      }
+    },
+    {
+      "id": "CLI005",
+      "company": {
+        "name": "TechHub Workspace Solutions",
+        "industry": "Coworking and Office Space",
+        "annualRevenue": "$40M",
+        "locations": ["San Francisco", "Oakland", "San Jose"],
+        "yearFounded": 2017,
+        "contractValue": "$320,000/year",
+        "address": {
+          "headquarters": "525 Market Street, Floor 15, San Francisco, CA 94105",
+          "locations": [
+            "1901 Harrison Street, Oakland, CA 94612",
+            "2150 North First Street, San Jose, CA 95131"
+          ]
+        }
+      },
+      "businessProfile": {
+        "model": "Premium coworking spaces for tech startups",
+        "culture": "Young, innovative, customer-experience focused",
+        "mainChallenges": [
+          "Rapid growth and constant renovations",
+          "High expectations from tech-savvy clients",
+          "24/7 facility access requiring around-clock support",
+          "Complex IoT and smart building systems"
+        ],
+        "cashFlowSituation": "Venture-backed, aggressive spending on growth",
+        "paymentTerms": "Net-30, sometimes delayed due to rapid expansion costs",
+        "uniqueCharacteristics": [
+          "Heavy focus on technology integration",
+          "High-end finish requirements",
+          "Regular reconfigurations for clients",
+          "Strong emphasis on environmental sustainability"
+        ]
+      },
+      "keyContacts": [
+        {
+          "name": "Alex Rivera",
+          "role": "Head of Member Experience",
+          "influence": "Decision Maker",
+          "preferences": "Uses Slack, expects quick responses",
+          "painPoints": "Maintaining premium feel of spaces"
+        },
+        {
+          "name": "Jordan Lee",
+          "role": "Smart Building Systems Manager",
+          "influence": "Technical Stakeholder",
+          "preferences": "Very hands-on, technically detailed",
+          "painPoints": "IoT system integration and maintenance"
+        }
+      ],
+      "serviceRequirements": {
+        "primaryServices": ["Smart device installation", "Furniture reconfiguration", "General maintenance"],
+        "responseTimeRequired": "6 hours",
+        "specialRequirements": ["IoT system knowledge", "High-end finish work", "Off-hours availability"]
+      }
+    }
+  ]
+}

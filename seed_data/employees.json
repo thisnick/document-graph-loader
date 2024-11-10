@@ -1,0 +1,311 @@
+{
+  "departments": {
+    "sales": {
+      "departmentHead": "EMP004",
+      "budget": 2500000,
+      "headcount": 12,
+      "targets": {
+        "annualRevenue": 12000000,
+        "customerAcquisition": 150,
+        "averageContractValue": 80000
+      }
+    },
+    "finance": {
+      "departmentHead": "EMP008",
+      "budget": 1200000,
+      "headcount": 8,
+      "targets": {
+        "operatingMargin": "25%",
+        "daysReceivable": 45,
+        "cashReserves": 2000000
+      }
+    },
+    "logistics": {
+      "departmentHead": "EMP012",
+      "budget": 1800000,
+      "headcount": 15,
+      "targets": {
+        "serviceDeliveryTime": "4 hours",
+        "resourceUtilization": "85%",
+        "customerSatisfaction": "92%"
+      }
+    },
+    "operations": {
+      "departmentHead": "EMP002",
+      "budget": 3500000,
+      "headcount": 45,
+      "targets": {
+        "serviceQuality": "4.8/5",
+        "responseTime": "4 hours",
+        "customerSatisfaction": "92%"
+      }
+    }
+  },
+  "employees": [
+    {
+      "id": "EMP001",
+      "name": "Sarah Chen",
+      "role": "Chief Executive Officer",
+      "reportsTo": null,
+      "yearsWithCompany": 5,
+      "department": "Executive",
+      "compensation": {
+        "baseSalary": 275000,
+        "bonus": "Up to 100% of base",
+        "equity": "2% of company",
+        "benefits": ["Health insurance", "401k with 6% match", "Executive life insurance", "Company car allowance"]
+      }
+    },
+    {
+      "id": "EMP002",
+      "name": "Marcus Rodriguez",
+      "role": "Chief Operations Officer",
+      "reportsTo": "EMP001",
+      "yearsWithCompany": 3,
+      "department": "Operations",
+      "compensation": {
+        "baseSalary": 185000,
+        "bonus": "Up to 50% of base",
+        "equity": "0.5% of company",
+        "benefits": ["Health insurance", "401k with 6% match", "Life insurance"]
+      }
+    },
+    {
+      "id": "EMP003",
+      "name": "Jennifer Walsh",
+      "role": "Head of Human Resources",
+      "reportsTo": "EMP001",
+      "yearsWithCompany": 2,
+      "department": "Human Resources",
+      "compensation": {
+        "baseSalary": 145000,
+        "bonus": "Up to 30% of base",
+        "equity": "0.2% of company",
+        "benefits": ["Health insurance", "401k with 6% match", "Life insurance"]
+      }
+    },
+    {
+      "id": "EMP004",
+      "name": "Robert Klein",
+      "role": "Sales Director",
+      "reportsTo": "EMP001",
+      "yearsWithCompany": 4,
+      "department": "Sales",
+      "compensation": {
+        "baseSalary": 160000,
+        "bonus": "Up to 40% of base",
+        "equity": "0.3% of company",
+        "benefits": ["Health insurance", "401k with 6% match", "Life insurance"]
+      }
+    },
+    {
+      "id": "EMP005",
+      "name": "Lisa Martinez",
+      "role": "Senior Sales Manager",
+      "reportsTo": "EMP004",
+      "yearsWithCompany": 3,
+      "department": "Sales",
+      "compensation": {
+        "baseSalary": 95000,
+        "bonus": "Commission based",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP006",
+      "name": "David Zhang",
+      "role": "Sales Representative",
+      "reportsTo": "EMP005",
+      "yearsWithCompany": 2,
+      "department": "Sales",
+      "compensation": {
+        "baseSalary": 65000,
+        "bonus": "Commission based",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP007",
+      "name": "Amanda Foster",
+      "role": "Sales Representative",
+      "reportsTo": "EMP005",
+      "yearsWithCompany": 1,
+      "department": "Sales",
+      "compensation": {
+        "baseSalary": 65000,
+        "bonus": "Commission based",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP008",
+      "name": "Michael Thompson",
+      "role": "Finance Director",
+      "reportsTo": "EMP001",
+      "yearsWithCompany": 3,
+      "department": "Finance",
+      "compensation": {
+        "baseSalary": 155000,
+        "bonus": "Up to 35% of base",
+        "equity": "0.2% of company",
+        "benefits": ["Health insurance", "401k with 6% match", "Life insurance"]
+      }
+    },
+    {
+      "id": "EMP009",
+      "name": "James Wilson",
+      "role": "Operations Manager - Northeast",
+      "reportsTo": "EMP002",
+      "yearsWithCompany": 4,
+      "department": "Operations",
+      "compensation": {
+        "baseSalary": 95000,
+        "bonus": "Up to 20% of base",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP010",
+      "name": "Sarah Johnson",
+      "role": "Lead Technician",
+      "reportsTo": "EMP009",
+      "yearsWithCompany": 5,
+      "department": "Operations",
+      "compensation": {
+        "baseSalary": 75000,
+        "bonus": "Performance based",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP011",
+      "name": "Carlos Mendez",
+      "role": "Sales Representative",
+      "reportsTo": "EMP005",
+      "yearsWithCompany": 2,
+      "department": "Sales",
+      "compensation": {
+        "baseSalary": 65000,
+        "bonus": "Commission based",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP012",
+      "name": "Elena Rodriguez",
+      "role": "Logistics Director",
+      "reportsTo": "EMP002",
+      "yearsWithCompany": 3,
+      "department": "Logistics",
+      "compensation": {
+        "baseSalary": 140000,
+        "bonus": "Up to 30% of base",
+        "benefits": ["Health insurance", "401k with 6% match", "Life insurance"]
+      }
+    },
+    {
+      "id": "EMP013",
+      "name": "Thomas Wright",
+      "role": "Operations Manager - West",
+      "reportsTo": "EMP002",
+      "yearsWithCompany": 3,
+      "department": "Operations",
+      "compensation": {
+        "baseSalary": 92000,
+        "bonus": "Up to 20% of base",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP014",
+      "name": "Patricia Lee",
+      "role": "Senior Sales Representative",
+      "reportsTo": "EMP005",
+      "yearsWithCompany": 4,
+      "department": "Sales",
+      "compensation": {
+        "baseSalary": 72000,
+        "bonus": "Commission based",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP015",
+      "name": "Kevin O'Brien",
+      "role": "Lead HVAC Technician",
+      "reportsTo": "EMP013",
+      "yearsWithCompany": 6,
+      "department": "Operations",
+      "compensation": {
+        "baseSalary": 78000,
+        "bonus": "Performance based",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP016",
+      "name": "Maria Sanchez",
+      "role": "Operations Manager - Southeast",
+      "reportsTo": "EMP002",
+      "yearsWithCompany": 2,
+      "department": "Operations",
+      "compensation": {
+        "baseSalary": 90000,
+        "bonus": "Up to 20% of base",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP017",
+      "name": "Daniel Kim",
+      "role": "Smart Systems Specialist",
+      "reportsTo": "EMP013",
+      "yearsWithCompany": 1,
+      "department": "Operations",
+      "compensation": {
+        "baseSalary": 82000,
+        "bonus": "Performance based",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP018",
+      "name": "Rachel Foster",
+      "role": "Sales Representative",
+      "reportsTo": "EMP005",
+      "yearsWithCompany": 1,
+      "department": "Sales",
+      "compensation": {
+        "baseSalary": 65000,
+        "bonus": "Commission based",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP019",
+      "name": "William Chen",
+      "role": "Operations Manager - Midwest",
+      "reportsTo": "EMP002",
+      "yearsWithCompany": 3,
+      "department": "Operations",
+      "compensation": {
+        "baseSalary": 91000,
+        "bonus": "Up to 20% of base",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    },
+    {
+      "id": "EMP020",
+      "name": "Sophie Turner",
+      "role": "Emergency Response Coordinator",
+      "reportsTo": "EMP002",
+      "yearsWithCompany": 2,
+      "department": "Operations",
+      "compensation": {
+        "baseSalary": 85000,
+        "bonus": "Performance based",
+        "benefits": ["Health insurance", "401k with 6% match"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.class
+.env
+.parsed/
+.extracted/
+.embeddings/
+venv/
+.vscode/
+data/
+.devbox/
+.venv/

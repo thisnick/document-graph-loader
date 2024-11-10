@@ -1,0 +1,181 @@
+{
+  "recurringOperationalExpenses": {
+    "facilities": {
+      "offices": {
+        "main": {
+          "monthly": 28000,
+          "details": "15,000 sq ft @ $22/sq ft annually, includes utilities",
+          "vendors": ["CitySpace Commercial Properties"],
+          "payment_schedule": "1st of month"
+        },
+        "northeast": {
+          "monthly": 12000,
+          "details": "Average 5,000 sq ft"
+        },
+        "southeast": {
+          "monthly": 9500,
+          "details": "Average 5,000 sq ft"
+        },
+        "midwest": {
+          "monthly": 8500,
+          "details": "Average 5,000 sq ft"
+        },
+        "west": {
+          "monthly": 15000,
+          "details": "Average 5,000 sq ft"
+        }
+      },
+      "lease_terms": "3-5 years",
+      "utilities": {
+        "monthly_average": 4200,
+        "breakdown": {
+          "electricity": 2800,
+          "water": 400,
+          "internet_phones": 1000
+        }
+      },
+      "maintenance": {
+        "monthly_average": 3500,
+        "frequency": "Monthly cleaning + quarterly maintenance"
+      }
+    },
+    "payroll": {
+      "executive": {
+        "monthly_total": 185000,
+        "headcount": 5,
+        "benefits_rate": 0.28
+      },
+      "sales": {
+        "base_monthly": 95000,
+        "headcount": 12,
+        "benefits_rate": 0.25,
+        "average_commission": "8% of new contract value"
+      },
+      "operations": {
+        "monthly_total": 420000,
+        "headcount": 45,
+        "benefits_rate": 0.26,
+        "overtime_average": "12% of base"
+      },
+      "administrative": {
+        "monthly_total": 85000,
+        "headcount": 10,
+        "benefits_rate": 0.25
+      }
+    },
+    "fleet": {
+      "vehicles": {
+        "count": 35,
+        "monthly_lease_average": 525,
+        "fuel_average_per_vehicle": 280,
+        "maintenance_average": 200
+      },
+      "insurance": {
+        "monthly": 12600,
+        "coverage_type": "Commercial fleet + liability"
+      }
+    },
+    "technology": {
+      "software_subscriptions": {
+        "monthly_total": 22800,
+        "major_systems": {
+          "crm": 4500,
+          "erp": 6800,
+          "field_service": 5500,
+          "accounting": 2800,
+          "productivity_tools": 3200
+        }
+      },
+      "hardware": {
+        "monthly_average": 8500,
+        "replacement_cycle": "3 years"
+      },
+      "it_support": {
+        "monthly": 15000,
+        "vendor": "TechCare Solutions"
+      }
+    }
+  },
+  "variableOperationalExpenses": {
+    "service_delivery": {
+      "materials": {
+        "monthly_average": 175000,
+        "typical_markup": "35%",
+        "major_suppliers": ["TechSupply Co", "BuildMart", "ElectroWholesale"],
+        "payment_terms": "Net 30"
+      },
+      "subcontractors": {
+        "monthly_average": 85000,
+        "typical_rates": {
+          "specialized_techs": 85,
+          "general_labor": 45,
+          "emergency_callout": 125
+        }
+      },
+      "equipment_rental": {
+        "monthly_average": 28000,
+        "main_categories": ["Heavy equipment", "Specialized tools", "Temporary power"]
+      }
+    },
+    "sales_marketing": {
+      "digital_marketing": {
+        "monthly_base": 18500,
+        "breakdown": {
+          "seo": 4500,
+          "ppc": 8000,
+          "social": 3000,
+          "content": 3000
+        }
+      },
+      "traditional_marketing": {
+        "monthly_average": 12000,
+        "categories": {
+          "print": 4000,
+          "events": 5000,
+          "local_advertising": 3000
+        }
+      },
+      "sales_expenses": {
+        "monthly_average": 15000,
+        "per_rep_allocation": 1250,
+        "categories": ["Travel", "Entertainment", "Proposals", "Training"]
+      }
+    },
+    "training_certification": {
+      "monthly_average": 12500,
+      "per_employee_annual": 2200,
+      "major_categories": {
+        "technical_certifications": 6500,
+        "safety_training": 3000,
+        "professional_development": 3000
+      }
+    }
+  },
+  "oneTimeExpenses": {
+    "equipment_purchases": {
+      "annual_budget": 450000,
+      "typical_categories": {
+        "diagnostic_equipment": "85000-120000",
+        "power_tools": "50000-75000",
+        "safety_equipment": "30000-45000",
+        "specialized_tools": "95000-125000"
+      }
+    },
+    "facility_improvements": {
+      "annual_budget": 180000,
+      "typical_projects": {
+        "office_renovations": "40000-60000",
+        "warehouse_upgrades": "50000-80000",
+        "security_systems": "25000-35000"
+      }
+    },
+    "software_implementations": {
+      "annual_budget": 250000,
+      "typical_projects": {
+        "major_upgrades": "100000-150000",
+        "new_modules": "40000-60000",
+        "integrations": "30000-50000"
+      }
+    }
+  }
+}

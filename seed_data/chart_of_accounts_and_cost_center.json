@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "company": "ServiceTech Solutions",
+    "fiscalYear": "2024",
+    "lastUpdated": "2024-02-01",
+    "accountingSystem": "Modified Accrual",
+    "reportingCurrency": "USD"
+  },
+  "accountStructure": {
+    "format": "XXX-YYY-ZZZ",
+    "segments": {
+      "XXX": "Main Account Category",
+      "YYY": "Sub Account",
+      "ZZZ": "Cost Center"
+    }
+  },
+  "accounts": {
+    "1000": {
+      "category": "Assets",
+      "subcategories": {
+        "1100": {
+          "name": "Current Assets",
+          "accounts": {
+            "1110": {"name": "Cash and Cash Equivalents", "type": "Asset", "normal_balance": "Debit"},
+            "1120": {"name": "Accounts Receivable", "type": "Asset", "normal_balance": "Debit"},
+            "1130": {"name": "Prepaid Expenses", "type": "Asset", "normal_balance": "Debit"},
+            "1140": {"name": "Inventory", "type": "Asset", "normal_balance": "Debit"}
+          }
+        },
+        "1200": {
+          "name": "Fixed Assets",
+          "accounts": {
+            "1210": {"name": "Vehicles", "type": "Asset", "normal_balance": "Debit"},
+            "1220": {"name": "Equipment", "type": "Asset", "normal_balance": "Debit"},
+            "1230": {"name": "Buildings", "type": "Asset", "normal_balance": "Debit"},
+            "1240": {"name": "Accumulated Depreciation", "type": "Asset", "normal_balance": "Credit"}
+          }
+        }
+      }
+    },
+    "2000": {
+      "category": "Liabilities",
+      "subcategories": {
+        "2100": {
+          "name": "Current Liabilities",
+          "accounts": {
+            "2110": {"name": "Accounts Payable", "type": "Liability", "normal_balance": "Credit"},
+            "2120": {"name": "Accrued Wages", "type": "Liability", "normal_balance": "Credit"},
+            "2130": {"name": "Accrued Taxes", "type": "Liability", "normal_balance": "Credit"},
+            "2140": {"name": "Deferred Revenue", "type": "Liability", "normal_balance": "Credit"}
+          }
+        }
+      }
+    },
+    "4000": {
+      "category": "Revenue",
+      "subcategories": {
+        "4100": {
+          "name": "Service Revenue",
+          "accounts": {
+            "4110": {"name": "Regular Service Revenue", "type": "Revenue", "normal_balance": "Credit"},
+            "4120": {"name": "Emergency Service Revenue", "type": "Revenue", "normal_balance": "Credit"},
+            "4130": {"name": "Installation Revenue", "type": "Revenue", "normal_balance": "Credit"},
+            "4140": {"name": "Maintenance Contract Revenue", "type": "Revenue", "normal_balance": "Credit"}
+          }
+        }
+      }
+    },
+    "5000": {
+      "category": "Direct Costs",
+      "subcategories": {
+        "5100": {
+          "name": "Service Delivery Costs",
+          "accounts": {
+            "5110": {"name": "Direct Labor", "type": "Expense", "normal_balance": "Debit"},
+            "5120": {"name": "Materials and Supplies", "type": "Expense", "normal_balance": "Debit"},
+            "5130": {"name": "Subcontractor Costs", "type": "Expense", "normal_balance": "Debit"},
+            "5140": {"name": "Vehicle Operations", "type": "Expense", "normal_balance": "Debit"}
+          }
+        }
+      }
+    },
+    "6000": {
+      "category": "Operating Expenses",
+      "subcategories": {
+        "6100": {
+          "name": "Administrative Expenses",
+          "accounts": {
+            "6110": {"name": "Salaries and Wages", "type": "Expense", "normal_balance": "Debit"},
+            "6120": {"name": "Employee Benefits", "type": "Expense", "normal_balance": "Debit"},
+            "6130": {"name": "Office Expenses", "type": "Expense", "normal_balance": "Debit"},
+            "6140": {"name": "Professional Services", "type": "Expense", "normal_balance": "Debit"}
+          }
+        },
+        "6200": {
+          "name": "Sales and Marketing",
+          "accounts": {
+            "6210": {"name": "Marketing Expenses", "type": "Expense", "normal_balance": "Debit"},
+            "6220": {"name": "Sales Commissions", "type": "Expense", "normal_balance": "Debit"},
+            "6230": {"name": "Advertising", "type": "Expense", "normal_balance": "Debit"}
+          }
+        }
+      }
+    }
+  },
+  "costCenters": {
+    "operationalCenters": {
+      "100": {
+        "name": "Field Operations",
+        "subcenters": {
+          "101": "Northeast Region",
+          "102": "Southeast Region",
+          "103": "Midwest Region",
+          "104": "West Region"
+        }
+      },
+      "200": {
+        "name": "Technical Services",
+        "subcenters": {
+          "201": "HVAC Services",
+          "202": "Electrical Services",
+          "203": "Smart Building Systems",
+          "204": "Emergency Response"
+        }
+      }
+    },
+    "supportCenters": {
+      "300": {
+        "name": "Administration",
+        "subcenters": {
+          "301": "Executive Office",
+          "302": "Finance",
+          "303": "Human Resources",
+          "304": "IT Services"
+        }
+      },
+      "400": {
+        "name": "Sales and Marketing",
+        "subcenters": {
+          "401": "Sales Team",
+          "402": "Marketing",
+          "403": "Customer Success"
+        }
+      }
+    }
+  },
+  "profitCenters": {
+    "1": {
+      "name": "Commercial Services",
+      "includes": ["101", "102", "103", "104", "201", "202"]
+    },
+    "2": {
+      "name": "Smart Building Solutions",
+      "includes": ["203", "204"]
+    }
+  },
+  "accountingRules": {
+    "revenueRecognition": {
+      "contractServices": "Monthly over contract term",
+      "projectServices": "Percentage of completion",
+      "emergencyServices": "Upon completion"
+    },
+    "costAllocation": {
+      "directCosts": "Direct to cost center",
+      "overheadCosts": "Based on revenue contribution",
+      "supportCosts": "Activity-based allocation"
+    },
+    "reportingRequirements": {
+      "frequency": "Monthly",
+      "consolidation": "By profit center",
+      "intercompanyTransactions": "Eliminated at profit center level"
+    }
+  }
+}

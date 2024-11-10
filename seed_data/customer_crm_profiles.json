@@ -1,0 +1,591 @@
+{
+  "clientRelationships": [
+    {
+      "clientId": "CLI001",
+      "companyName": "GreenSpaces Living",
+      "relationshipStatus": {
+        "currentState": "ACTIVE_CLIENT",
+        "customerSince": "2022-03-15",
+        "lastReviewDate": "2024-02-01",
+        "accountHealth": "GREEN",
+        "riskLevel": "LOW",
+        "accountOwner": "EMP014"
+      },
+      "salesHistory": {
+        "initialContactDate": "2021-11-10",
+        "salesCycleDuration": "125 days",
+        "decisionMakingProcess": [
+          {
+            "stage": "Initial Contact",
+            "date": "2021-11-10",
+            "notes": "Inbound lead from sustainability conference"
+          },
+          {
+            "stage": "Proposal",
+            "date": "2022-01-15",
+            "notes": "Competed against ServiceMaster and HandyPro"
+          },
+          {
+            "stage": "Contract Negotiation",
+            "date": "2022-02-20",
+            "notes": "Major focus on eco-friendly practices and weekend availability"
+          },
+          {
+            "stage": "Closed Won",
+            "date": "2022-03-15",
+            "notes": "Won on service quality and sustainability commitment"
+          }
+        ]
+      },
+      "contractDetails": {
+        "initial": {
+          "proposedValue": "$500,000/year",
+          "proposedTerm": "2 years",
+          "keyTerms": [
+            "48-hour response time",
+            "Standard liability coverage",
+            "Monthly reporting"
+          ]
+        },
+        "final": {
+          "actualValue": "$450,000/year",
+          "actualTerm": "2 years with automatic renewal",
+          "specialTerms": [
+            "24-hour response time",
+            "Enhanced liability coverage",
+            "Weekly reporting",
+            "Dedicated weekend crew",
+            "Eco-friendly materials requirement"
+          ]
+        }
+      },
+      "financials": {
+        "totalRevenueCollected": 875000,
+        "totalCostsIncurred": 595000,
+        "profitMargin": "32%",
+        "paymentHistory": {
+          "averageDaysToPayment": 42,
+          "latePayments": 2,
+          "creditNotes": 1
+        }
+      },
+      "interactions": {
+        "summary": {
+          "lastInteraction": "2024-02-15",
+          "interactionFrequency": "Weekly",
+          "preferredChannels": ["Email", "Scheduled Video Calls"],
+          "lastQBR": "2024-01-10",
+          "nextScheduledMeeting": "2024-03-01"
+        },
+        "keyInteractionTypes": [
+          "Quarterly Business Reviews",
+          "Weekly Status Calls",
+          "Monthly Reports",
+          "Site Inspections"
+        ],
+        "recentInteractions": [
+          {
+            "date": "2024-02-15",
+            "type": "Status Call",
+            "participants": ["Emily Rodriguez", "Robert Klein"],
+            "summary": "Weekly operations review",
+            "followUpRequired": false
+          }
+        ],
+        "relationshipHealth": {
+          "lastSurveyScore": 8.5,
+          "relationshipStrength": "Strong",
+          "keyStakeholderSentiment": "Positive",
+          "escalationFrequency": "Low"
+        }
+      },
+      "issues": {
+        "summary": {
+          "openIssues": 3,
+          "criticalIssues": 0,
+          "averageResolutionTime": "2.5 days",
+          "recurringIssuePatterns": ["Weekend staffing", "Peak season capacity"]
+        },
+        "issueCategories": {
+          "operational": {
+            "total": 25,
+            "open": 2,
+            "trend": "Decreasing"
+          },
+          "quality": {
+            "total": 12,
+            "open": 1,
+            "trend": "Stable"
+          },
+          "communication": {
+            "total": 8,
+            "open": 0,
+            "trend": "Improving"
+          }
+        },
+        "slaPerformance": {
+          "responseTime": "95%",
+          "resolutionTime": "92%",
+          "customerSatisfaction": "4.2/5"
+        }
+      },
+      "financialMetrics": {
+        "summary": {
+          "ytdRevenue": 450000,
+          "ytdCosts": 315000,
+          "ytdMargin": "30%",
+          "previousYearComparison": "+5%"
+        },
+        "revenueStreams": {
+          "regularServices": {
+            "amount": 380000,
+            "trend": "Stable"
+          },
+          "emergencyServices": {
+            "amount": 45000,
+            "trend": "Increasing"
+          },
+          "specialProjects": {
+            "amount": 25000,
+            "trend": "Variable"
+          }
+        },
+        "costBreakdown": {
+          "labor": {
+            "amount": 220000,
+            "percentage": "70%"
+          },
+          "materials": {
+            "amount": 63000,
+            "percentage": "20%"
+          },
+          "overhead": {
+            "amount": 32000,
+            "percentage": "10%"
+          }
+        },
+        "billingMetrics": {
+          "averageDaysToPayment": 42,
+          "billableUtilization": "85%",
+          "revenuePerTechnician": "8500/month"
+        }
+      },
+      "implicitKnowledge": {
+        "internalNotes": [
+          "Very sensitive to social media presence - document all eco-friendly practices",
+          "Emily (Head of Ops) prefers Thursday morning calls",
+          "Year-end rush always happens in August due to college move-ins",
+          "Warehouse manager Mark needs detailed schedules 2 weeks in advance"
+        ],
+        "relationshipStrengths": [
+          "Strong alignment on sustainability values",
+          "CEO connection with our head of sales",
+          "Early adopter of our new services"
+        ],
+        "painPoints": [
+          "Still struggling with peak season capacity",
+          "Want faster scaling in new markets",
+          "Price sensitivity in non-urban areas"
+        ],
+        "expansionOpportunities": [
+          "New market entry planned for Pacific Northwest",
+          "Interested in white-glove delivery service",
+          "Potential for dedicated team model"
+        ]
+      }
+    },
+    {
+      "clientId": "CLI004",
+      "companyName": "InnoHealth Medical Centers",
+      "relationshipStatus": {
+        "currentState": "ACTIVE_CLIENT",
+        "customerSince": "2023-01-15",
+        "lastReviewDate": "2024-01-30",
+        "accountHealth": "GREEN",
+        "riskLevel": "LOW",
+        "accountOwner": "EMP008"
+      },
+      "salesHistory": {
+        "initialContactDate": "2022-09-20",
+        "salesCycleDuration": "117 days",
+        "decisionMakingProcess": [
+          {
+            "stage": "Initial Contact",
+            "date": "2022-09-20",
+            "notes": "Referral from medical equipment supplier"
+          },
+          {
+            "stage": "Requirements Gathering",
+            "date": "2022-10-15",
+            "notes": "Complex healthcare compliance requirements"
+          },
+          {
+            "stage": "Proposal",
+            "date": "2022-11-30",
+            "notes": "Competed against two national providers"
+          },
+          {
+            "stage": "Contract Negotiation",
+            "date": "2022-12-20",
+            "notes": "Focus on healthcare certifications and response times"
+          },
+          {
+            "stage": "Closed Won",
+            "date": "2023-01-15",
+            "notes": "Won on specialized healthcare expertise"
+          }
+        ]
+      },
+      "contractDetails": {
+        "initial": {
+          "proposedValue": "$800,000/year",
+          "proposedTerm": "3 years",
+          "keyTerms": [
+            "4-hour response time",
+            "Healthcare certification requirements",
+            "Quarterly compliance reviews"
+          ]
+        },
+        "final": {
+          "actualValue": "$750,000/year",
+          "actualTerm": "3 years with annual review",
+          "specialTerms": [
+            "2-hour response time for critical systems",
+            "Enhanced infection control protocols",
+            "Monthly compliance reporting",
+            "Background checks for all personnel",
+            "24/7 emergency support"
+          ]
+        }
+      },
+      "financials": {
+        "totalRevenueCollected": 937500,
+        "totalCostsIncurred": 618750,
+        "profitMargin": "34%",
+        "paymentHistory": {
+          "averageDaysToPayment": 43,
+          "latePayments": 1,
+          "creditNotes": 2
+        }
+      },
+      "interactions": {
+        "summary": {
+          "lastInteraction": "2024-02-18",
+          "interactionFrequency": "Weekly",
+          "preferredChannels": ["Email", "Formal Reports", "Scheduled Meetings"],
+          "lastQBR": "2024-01-30",
+          "nextScheduledMeeting": "2024-03-05"
+        },
+        "keyInteractionTypes": [
+          "Quarterly Business Reviews",
+          "Monthly Compliance Reports",
+          "Weekly Operations Meetings",
+          "Emergency Response Drills"
+        ],
+        "recentInteractions": [
+          {
+            "date": "2024-02-18",
+            "type": "Compliance Review",
+            "participants": ["Dr. Rachel Thompson", "Michael Chang", "Lisa Parker"],
+            "summary": "Monthly compliance and certification review",
+            "followUpRequired": false
+          }
+        ],
+        "relationshipHealth": {
+          "lastSurveyScore": 9.2,
+          "relationshipStrength": "Very Strong",
+          "keyStakeholderSentiment": "Highly Positive",
+          "escalationFrequency": "Very Low"
+        }
+      },
+      "issues": {
+        "summary": {
+          "openIssues": 2,
+          "criticalIssues": 0,
+          "averageResolutionTime": "1.8 days",
+          "recurringIssuePatterns": ["After-hours response coordination", "Documentation completeness"]
+        },
+        "issueCategories": {
+          "operational": {
+            "total": 18,
+            "open": 1,
+            "trend": "Stable"
+          },
+          "compliance": {
+            "total": 5,
+            "open": 1,
+            "trend": "Improving"
+          },
+          "quality": {
+            "total": 8,
+            "open": 0,
+            "trend": "Stable"
+          }
+        },
+        "slaPerformance": {
+          "responseTime": "98%",
+          "resolutionTime": "96%",
+          "customerSatisfaction": "4.6/5"
+        }
+      },
+      "implicitKnowledge": {
+        "internalNotes": [
+          "Dr. Thompson prefers early morning meetings only",
+          "Strict documentation requirements for all services",
+          "Expansion plans for new facility in Hartford Q3 2024",
+          "Very sensitive about patient care disruption"
+        ],
+        "relationshipStrengths": [
+          "Strong compliance track record",
+          "Excellent emergency response performance",
+          "Deep healthcare industry expertise"
+        ],
+        "painPoints": [
+          "Complex internal approval processes",
+          "Coordination across multiple facilities",
+          "After-hours staffing requirements"
+        ],
+        "expansionOpportunities": [
+          "New Hartford facility opening",
+          "Preventive maintenance program expansion",
+          "Medical equipment calibration services"
+        ]
+      },
+      "financialMetrics": {
+        "summary": {
+          "ytdRevenue": 750000,
+          "ytdCosts": 487500,
+          "ytdMargin": "35%",
+          "previousYearComparison": "+8%"
+        },
+        "revenueStreams": {
+          "regularServices": {
+            "amount": 600000,
+            "trend": "Stable"
+          },
+          "emergencyServices": {
+            "amount": 112500,
+            "trend": "Stable"
+          },
+          "specialProjects": {
+            "amount": 37500,
+            "trend": "Increasing"
+          }
+        },
+        "costBreakdown": {
+          "labor": {
+            "amount": 341250,
+            "percentage": "70%"
+          },
+          "materials": {
+            "amount": 97500,
+            "percentage": "20%"
+          },
+          "overhead": {
+            "amount": 48750,
+            "percentage": "10%"
+          }
+        },
+        "billingMetrics": {
+          "averageDaysToPayment": 43,
+          "billableUtilization": "92%",
+          "revenuePerTechnician": "12500/month"
+        }
+      }
+    },
+    {
+      "clientId": "CLI005",
+      "companyName": "TechHub Workspace Solutions",
+      "relationshipStatus": {
+        "currentState": "ACTIVE_CLIENT",
+        "customerSince": "2023-06-01",
+        "lastReviewDate": "2024-01-15",
+        "accountHealth": "YELLOW",
+        "riskLevel": "MEDIUM",
+        "accountOwner": "EMP010"
+      },
+      "salesHistory": {
+        "initialContactDate": "2023-03-10",
+        "salesCycleDuration": "83 days",
+        "decisionMakingProcess": [
+          {
+            "stage": "Initial Contact",
+            "date": "2023-03-10",
+            "notes": "Inbound lead from website"
+          },
+          {
+            "stage": "Requirements Gathering",
+            "date": "2023-04-05",
+            "notes": "Complex IoT and smart building requirements"
+          },
+          {
+            "stage": "Proposal",
+            "date": "2023-05-01",
+            "notes": "Emphasis on tech integration capabilities"
+          },
+          {
+            "stage": "Closed Won",
+            "date": "2023-06-01",
+            "notes": "Won on technical expertise and response times"
+          }
+        ]
+      },
+      "contractDetails": {
+        "initial": {
+          "proposedValue": "$350,000/year",
+          "proposedTerm": "1 year",
+          "keyTerms": [
+            "8-hour response time",
+            "IoT system maintenance",
+            "Monthly performance reviews"
+          ]
+        },
+        "final": {
+          "actualValue": "$320,000/year",
+          "actualTerm": "1 year with monthly review",
+          "specialTerms": [
+            "6-hour response time",
+            "Smart building systems support",
+            "Weekly status reports",
+            "Dedicated technical team",
+            "Flexible scheduling for tenant needs"
+          ]
+        }
+      },
+      "financials": {
+        "totalRevenueCollected": 213333,
+        "totalCostsIncurred": 149333,
+        "profitMargin": "30%",
+        "paymentHistory": {
+          "averageDaysToPayment": 35,
+          "latePayments": 3,
+          "creditNotes": 2
+        }
+      },
+      "interactions": {
+        "summary": {
+          "lastInteraction": "2024-02-19",
+          "interactionFrequency": "Daily",
+          "preferredChannels": ["Slack", "Mobile App", "Video Calls"],
+          "lastQBR": "2024-01-15",
+          "nextScheduledMeeting": "2024-02-28"
+        },
+        "keyInteractionTypes": [
+          "Daily Stand-ups",
+          "Weekly Tech Reviews",
+          "Monthly Performance Reviews",
+          "Ad-hoc Project Meetings"
+        ],
+        "recentInteractions": [
+          {
+            "date": "2024-02-19",
+            "type": "Technical Review",
+            "participants": ["Jordan Lee", "David Wong"],
+            "summary": "IoT system performance review",
+            "followUpRequired": true
+          }
+        ],
+        "relationshipHealth": {
+          "lastSurveyScore": 7.8,
+          "relationshipStrength": "Moderate",
+          "keyStakeholderSentiment": "Mixed",
+          "escalationFrequency": "Medium"
+        }
+      },
+      "issues": {
+        "summary": {
+          "openIssues": 5,
+          "criticalIssues": 1,
+          "averageResolutionTime": "3.2 days",
+          "recurringIssuePatterns": ["IoT integration issues", "After-hours access", "Response time delays"]
+        },
+        "issueCategories": {
+          "technical": {
+            "total": 28,
+            "open": 3,
+            "trend": "Increasing"
+          },
+          "operational": {
+            "total": 15,
+            "open": 1,
+            "trend": "Stable"
+          },
+          "communication": {
+            "total": 12,
+            "open": 1,
+            "trend": "Improving"
+          }
+        },
+        "slaPerformance": {
+          "responseTime": "88%",
+          "resolutionTime": "85%",
+          "customerSatisfaction": "3.9/5"
+        }
+      },
+      "implicitKnowledge": {
+        "internalNotes": [
+          "Alex prefers Slack for all communications",
+          "Highly sensitive to member complaints",
+          "Planning rapid expansion to Sacramento",
+          "Technical team struggles with some IoT integrations"
+        ],
+        "relationshipStrengths": [
+          "Strong technical capabilities",
+          "Flexible scheduling",
+          "Responsive communication"
+        ],
+        "painPoints": [
+          "IoT system reliability",
+          "Response times during peak hours",
+          "Complex tenant requirements"
+        ],
+        "expansionOpportunities": [
+          "Sacramento market entry support",
+          "Enhanced IoT monitoring services",
+          "Dedicated on-site technician"
+        ]
+      },
+      "financialMetrics": {
+        "summary": {
+          "ytdRevenue": 320000,
+          "ytdCosts": 224000,
+          "ytdMargin": "30%",
+          "previousYearComparison": "N/A"
+        },
+        "revenueStreams": {
+          "regularServices": {
+            "amount": 256000,
+            "trend": "Stable"
+          },
+          "emergencyServices": {
+            "amount": 32000,
+            "trend": "Increasing"
+          },
+          "specialProjects": {
+            "amount": 32000,
+            "trend": "Variable"
+          }
+        },
+        "costBreakdown": {
+          "labor": {
+            "amount": 156800,
+            "percentage": "70%"
+          },
+          "materials": {
+            "amount": 44800,
+            "percentage": "20%"
+          },
+          "overhead": {
+            "amount": 22400,
+            "percentage": "10%"
+          }
+        },
+        "billingMetrics": {
+          "averageDaysToPayment": 35,
+          "billableUtilization": "78%",
+          "revenuePerTechnician": "7500/month"
+        }
+      }
+    }
+  ]
+}
